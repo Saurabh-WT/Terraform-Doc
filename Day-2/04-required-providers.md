@@ -3,7 +3,7 @@
 The required_providers block in Terraform is used to declare and specify the required provider configurations for your Terraform module or configuration. It allows you to specify the provider name, source, and version constraints.
 
 ```
-terraform {
+terraform  {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
